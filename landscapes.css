@@ -1,0 +1,17 @@
+.currentPage{
+    color: black;
+}
+
+
+.landscape-columns {
+    filter: blur(1px);
+}
+
+.landscapeOne-img {
+    height: 200px;
+    width: 400px;
+}
+
+.landscapeOne{
+    border: red 10px solid;
+}

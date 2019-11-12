@@ -1,0 +1,26 @@
+.portrait-container{
+    padding: 20px;
+}
+
+.portrait-container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20%;
+    /* border: red 10px solid; */
+    margin: 20px;
+}
+
+.portrait-container .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* border: green 10px solid; */
+}
+
+.portrait-container img {
+    width: 20%;
+    height: 20%;
+    border: 1px outset black;
+}
