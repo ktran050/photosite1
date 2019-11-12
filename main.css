@@ -20,7 +20,7 @@ body {
     height: 100%;
 
     background: url("https://picsum.photos/id/723/2400/1200") center fixed no-repeat;
-    filter: blur(4px);
+    filter: blur(2px);
 }
 
 .content-container {
@@ -108,4 +108,31 @@ body {
     border-radius: 50%;
     border: 2px grey solid;
     background-color: black;
+}
+
+/* Footer Styling */
+.footer-background{
+    position: fixed;
+    bottom: 0;
+    
+    background: linear-gradient(transparent, rgba(0,0,0, .8));
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+
+.footer h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.insta-logo{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
 }
