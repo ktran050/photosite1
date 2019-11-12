@@ -10,9 +10,9 @@ function focusBackground(){
         showFocus = false;
     }
     else{
-        document.getElementById("background").style.zIndex = 10;
+        document.getElementById("background").style.zIndex = -1;
         document.getElementById("focusButton").style.zIndex = 11;
-        document.getElementById("background").style.filter = "blur(2)";
+        document.getElementById("background").style.filter = "blur(4px)";
         console.log("blur");
         showFocus = true;
     }

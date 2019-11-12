@@ -19,9 +19,8 @@ body {
     width: 100%;
     height: 100%;
 
-    background: url("./img/backgroundlandscape.jpg") center fixed no-repeat;
-    background-size: cover;
-    filter: blur(2px);
+    background: url("https://picsum.photos/id/723/2400/1200") center fixed no-repeat;
+    filter: blur(4px);
 }
 
 .content-container {
